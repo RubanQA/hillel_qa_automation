@@ -4,7 +4,7 @@ print("Hello world")
 # 2 задание
 print("*****")
 
-print(5* "*")
+print(5 * "*")
 
 # задача со звездочкой
 print("""#####
