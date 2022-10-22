@@ -1,2 +1,2 @@
 # hillel_qa_automation
-QA automation course by Hillel
+[QA Automation with Python course by Hillel](https://ithillel.ua/courses/qa-automation-python)
