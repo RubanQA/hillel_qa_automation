@@ -55,7 +55,7 @@ r_file.close()
 with open('files/random_text.txt', 'rt') as f:
     text = f.read()
     words = text.split()
-print('Number of words in text file :', len(words))
+print('Number of words in text file.txt :', len(words))
 f.close()
 
 # 6. Дан файл в котором записаны числа через пробел, необходимо вывести пользователю сумму этих чисел
