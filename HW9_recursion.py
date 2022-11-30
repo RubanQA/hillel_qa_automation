@@ -12,4 +12,5 @@ def is_power_of_two(num: int):
     else:
         print('NO')
 
-is_power_of_two(128)
+is_power_of_two(256)
+is_power_of_two(125)
