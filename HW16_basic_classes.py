@@ -126,7 +126,7 @@ emp_Denis = Employee("Denis", 32, "QA", 3000)
 emp_Denis.show_emp_amount()
 emp_Denis.show_emp_salary()
 emp_Denis.show_emp_specialty()
-print(emp_Denis.assigned_task("Dev"))
+print(emp_Denis.assigned_task("QA"))
 Employee.overtime_bonus = 1000
 Employee.show_overtime_bonus_for_employees()
 emp_Denis.show_overtime_bonus_for_employees()
