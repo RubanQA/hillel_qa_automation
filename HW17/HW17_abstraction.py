@@ -1,4 +1,6 @@
 from abc import ABC, abstractmethod
+
+
 class Car:
     def __init__(self, brand, model, engine, drive, fuel, color, price):
         self.brand = brand
@@ -17,6 +19,7 @@ class Car:
         if self.discount:
             return self.price * (1 - self.discount)
         return self.price
+
     @abstractmethod
     def __repr__(self):
         pass
