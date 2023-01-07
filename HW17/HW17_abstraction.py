@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 
 
-class Car:
+class Car(ABC):
     def __init__(self, brand, model, engine, drive, fuel, color, price):
         self.brand = brand
         self.model = model
