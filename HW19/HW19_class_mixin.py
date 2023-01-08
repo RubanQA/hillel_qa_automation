@@ -42,13 +42,11 @@ class AttributePrinterMixin:
                 attr_list += f'    {i}: {attr[i]}\n'
         return f'{self.__class__.__name__}: {{\n{attr_list}}}'
 
-
 class Class_A(AttributePrinterMixin):
     def __init__(self):
         self.public_field = 3
         self._protected_field = 'q'
         self.__private_field = [1, 2, 3]
-
 
 a = Class_A()
 print(a)
